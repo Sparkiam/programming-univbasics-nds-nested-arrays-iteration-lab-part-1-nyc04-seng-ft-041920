@@ -27,7 +27,7 @@ def array_check(src)
  
 	while x < src.length # Amount of elements in the array
 		y = 0 
-    while y < src.length 
+    while y < src[x].length 
       if src[x][y].even?
         p src[x][y]
       end 
