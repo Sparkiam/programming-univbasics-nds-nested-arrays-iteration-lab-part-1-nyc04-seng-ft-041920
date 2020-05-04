@@ -20,4 +20,25 @@ def find_even_values(src)
 #   end
 #   row_index += 1
 # end
+
+
+def array_check(src)
+	x = 0 # This is going to count where we are in the array.
+ 
+	while x < src.length # Amount of elements in the array
+		y = 0 
+		
+    while y < src.length 
+      if src[x][y].even?
+        p src[x][y]
+      end 
+			y += 1 #y = y + 1
+		end
+
+		x += 1 # x++  
+	end
+	
+end
+
+array_check(array_1)
 end 
