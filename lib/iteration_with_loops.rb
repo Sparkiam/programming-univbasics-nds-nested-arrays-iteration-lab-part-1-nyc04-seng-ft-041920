@@ -7,7 +7,7 @@ def find_even_values(src)
 
 
  def find_even_values(src)
-  src[0][1]
+  # src[0][1]
   row_index = 0
   while row_index < src.count do
     element_index = 0
