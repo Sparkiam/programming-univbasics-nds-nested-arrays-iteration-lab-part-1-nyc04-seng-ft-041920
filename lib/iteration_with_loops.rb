@@ -29,11 +29,11 @@ def array_check(src)
 		y = 0 
     while y < src[x].length 
       if src[x][y].even?
-        p src[x][y]
+        puts src[x][y]
       end 
 			y += 1 #y = y + 1
 		end
 		x += 1 # x++  
 	end
 end 
-# p array_check(array_1)
+
