@@ -22,7 +22,7 @@
 # end
 
 
-def array_check(src)
+def find_even_values
 	x = 0 # This is going to count where we are in the array.
  
 	while x < src.length # Amount of elements in the array
