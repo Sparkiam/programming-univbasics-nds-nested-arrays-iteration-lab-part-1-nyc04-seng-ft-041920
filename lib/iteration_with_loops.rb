@@ -35,6 +35,5 @@ def array_check(src)
 		end
 		x += 1 # x++  
 	end
-p array_check(array_1)
-end 
+# p array_check(array_1)
 end
