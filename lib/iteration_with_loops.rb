@@ -37,3 +37,4 @@ def array_check(src)
 	end
 p array_check(array_1)
 end 
+end
