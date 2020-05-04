@@ -6,17 +6,18 @@ def find_even_values(src)
 # # We can see which values are even, and go straight to printing only those. What if we had this exact structure (an array of three arrays, each with three element), but we couldn't see the values contained?
 
 
-def find_even_values(src)
-  row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      if src[row_index][element_index].even?
-        p src[row_index][element_index]
-      end
-      element_index += 1
-    end
-    row_index += 1
-  end
-end
+ def find_even_values(src)
+   src[0][1]
+#   row_index = 0
+#   while row_index < src.count do
+#     element_index = 0
+#     while element_index < src[row_index].count do
+#       if src[row_index][element_index].even?
+#         p src[row_index][element_index]
+#       end
+#       element_index += 1
+#     end
+#     row_index += 1
+#   end
+# end
 end
