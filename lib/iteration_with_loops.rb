@@ -27,18 +27,13 @@ def array_check(src)
  
 	while x < src.length # Amount of elements in the array
 		y = 0 
-		
     while y < src.length 
       if src[x][y].even?
         p src[x][y]
       end 
 			y += 1 #y = y + 1
 		end
-
 		x += 1 # x++  
 	end
-	
-end
-
 array_check(array_1)
 end 
